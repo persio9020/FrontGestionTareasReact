@@ -1,0 +1,71 @@
+{
+  "translation": {
+    "taskManagement": "Gestión de Tareas",
+    "createTask": "Crear Tarea",
+    "filters": "Filtros",
+    "noTasksAvailable": "No hay tareas disponibles",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "confirmDelete": "¿Estás seguro de que quieres eliminar esta tarea?",
+    "taskDeleted": "Tarea eliminada",
+    "table": {
+      "title": "Título",
+      "description": "Descripción",
+      "creationDate": "Fecha de creación",
+      "status": "Estado",
+      "user": "Usuario",
+      "actions": "Acciones"
+    },
+    "taskModal": {
+      "createTask": "Crear Tarea",
+      "editTask": "Editar Tarea",
+      "title": "Título",
+      "description": "Descripción",
+      "creationDate": "Fecha de Creación",
+      "status": "Estado",
+      "assignUser": "Asignar a",
+      "selectUser": "Seleccionar usuario",
+      "requiredField": "Este campo es obligatorio",
+      "saveTask": "Tarea Guardada",
+      "cancel": "Cancelar",
+      "update": "Actualizar"
+    },
+    "filtersTable": {
+      "title": "Título",
+      "description": "Descripción",
+      "status": "Estado",
+      "select": "Seleccione...",
+      "pending": "Pendiente",
+      "inProgress": "En Progreso",
+      "completed": "Completado",
+      "filter": "Filtrar"
+    },
+    "home": {
+      "welcome": "Bienvenido a la aplicación"
+    },
+    "login": {
+      "username": "Nombre de usuario",
+      "password": "Contraseña",
+      "loginButton": "Iniciar sesión",
+      "loading": "Cargando..."
+    },
+    "register": {
+      "title": "Registro de Usuario",
+      "name": "Nombre",
+      "email": "Correo",
+      "password": "Contraseña",
+      "role": "Rol",
+      "admin": "Administrador",
+      "user": "Usuario",
+      "registerButton": "Registrar",
+      "success": "Usuario registrado con éxito",
+      "error": "Error al registrar usuario"
+    },
+    "navbar": {
+      "home": "Inicio",
+      "register": "Registro de usuarios",
+      "taskList": "Lista de tareas",
+      "logout": "Cerrar sesión"
+    }
+  }
+}

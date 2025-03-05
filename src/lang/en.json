@@ -1,0 +1,71 @@
+{
+  "translation": {
+    "taskManagement": "Task Management",
+    "createTask": "Create Task",
+    "filters": "Filters",
+    "noTasksAvailable": "No tasks available",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirmDelete": "Are you sure you want to delete this task?",
+    "taskDeleted": "Task deleted",
+    "table": {
+      "title": "Title",
+      "description": "Description",
+      "creationDate": "Creation Date",
+      "status": "Status",
+      "user": "User",
+      "actions": "Actions"
+    },
+    "taskModal": {
+      "createTask": "Create Task",
+      "editTask": "Edit Task",
+      "title": "Title",
+      "description": "Description",
+      "creationDate": "Creation Date",
+      "status": "Status",
+      "assignUser": "Assign to",
+      "selectUser": "Select user",
+      "requiredField": "This field is required",
+      "saveTask": "Task Saved",
+      "cancel": "Cancel",
+      "update": "Update"
+    },
+    "filtersTable": {
+      "title": "Title",
+      "description": "Description",
+      "status": "Status",
+      "select": "Select...",
+      "pending": "Pending",
+      "inProgress": "In Progress",
+      "completed": "Completed",
+      "filter": "Filter"
+    },
+    "home": {
+      "welcome": "Welcome to the application"
+    },
+    "login": {
+      "username": "Username",
+      "password": "Password",
+      "loginButton": "Login",
+      "loading": "Loading..."
+    },
+    "register": {
+      "title": "User Registration",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "role": "Role",
+      "admin": "Administrator",
+      "user": "User",
+      "registerButton": "Register",
+      "success": "User successfully registered",
+      "error": "Error registering user"
+    },
+    "navbar": {
+      "home": "Home",
+      "register": "User Registration",
+      "taskList": "Task List",
+      "logout": "Logout"
+    }
+  }
+}
