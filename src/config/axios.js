@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: 'srv744905.hstgr.cloud:8080/v1'
+    baseURL: 'http://82.25.91.5:8080/v1'
 })
 
 api.interceptors.request.use(
