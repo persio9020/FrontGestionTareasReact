@@ -15,7 +15,7 @@ const Registrese = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
 
-    const onSubmit = async (data) => {
+    const onSubmit = (data) => {
         try {
             const formattedData = {
                 nombre: data.nombre,
@@ -24,10 +24,11 @@ const Registrese = () => {
                 roles: (Array.isArray(data.rol) ? data.rol : [data.rol]).map(role => ({ id: parseInt(role) }))
             };
 
-            await dispatch(registrarse(formattedData));
+            dispatch(registrarse(formattedData));
             toast.success("Usuario registrado con éxito");
             navigate("/");
         } catch (error) {
+            console.error(error)
             toast.error("Error al registrar usuario");
         }
     };

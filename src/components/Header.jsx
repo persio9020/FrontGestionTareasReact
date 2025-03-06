@@ -4,7 +4,7 @@ import LangSelector from "./LangSelector.jsx";
 const Header = ()=>{
     return(
         <header style={{textAlign: "center"}}>
-            <img src={imgReact} style={{width:'250px'}}/>
+            <img src={imgReact} style={{width:'200px'}}/>
         </header>
     )
 }

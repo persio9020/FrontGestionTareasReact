@@ -37,9 +37,9 @@ export default function Login() {
     return (
         <>
             {isLoading && <Loading />}
-            <h2>{t("home.welcome")}</h2>
-            <div className="flex min-h-screen items-center justify-center bg-gray-100">
-                <Card className="w-96 shadow-xl">
+            <h3><center>{t("home.welcome")}</center></h3>
+            <div className="flex items-center pb-5 pt-5 justify-center bg-gray-100">
+                <Card className="w-96 mt-lg-5 mb-5 shadow-xl">
                     <CardHeader>
                         <CardTitle className="text-center">{t("login.loginButton")}</CardTitle>
                     </CardHeader>

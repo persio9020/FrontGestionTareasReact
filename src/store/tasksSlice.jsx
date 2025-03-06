@@ -116,7 +116,7 @@ const tasksSlice = createSlice({
                 state.error = action.error.message;
             })
             .addCase(agregar.fulfilled, (state, action) => {
-                state.tareas.push(action.payload);
+                //state.tareas.push(action.payload);
             })
             .addCase(listarUsuarios.fulfilled, (state, action) => {
                 state.usuarios = action.payload;
